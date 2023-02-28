@@ -8,3 +8,12 @@ en date du 24/02/2023 il m'a fallut defaire toute la Bdd qui avait ete faite, ce
 j'ai modeler le style.css du formulaire de connaxion pour un visuel plus agreable.
 j'ai commencer le formulaire d 'inscription, il a recu une ebauche qui el rend visuellement aussi beau que sur le windows 98.
 je vais donc regarder sur Booststrap ce que je pourrais y trouver comme exemple.
+
+
+le 25/02/2023 telechargement et configuration de WampServer, 2eme framwork utilisant (php databas, apache, mariaBD, mysql)
+le premier utiliser etant Laragon.
+des package supplementaires ont ete ajouter, suite a une rapide verification via le logiciel fourni par WampServer certains fichier C++ ete manquand ce qui avait comme finalité de bloquer le bon deploiement de Wampserver.
+
+
+28/02/2023 modification de la bdd, creation a sur 2 framwork pour en comprendre les utilisations, ainsi que pour evaluer 
+le meilleur support et la meilleur prisee en main.
