@@ -1,0 +1,217 @@
+
+/*Selection detous les element pour mieux les controler*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(./picture/background2.jpeg);
+    background-size: cover;
+}
+
+
+/*modifie le style des liens*/
+a,
+a:visited,
+a:active{
+    text-decoration: none;
+    color: inherit;/*permet de pouvoir attribuer la couleur choisi*/
+    transition: all 0.2s ease;
+}
+
+a:hover{
+    color: #ffa600;
+}
+
+main{
+    margin: 20vh auto;   
+}
+
+ main form{
+    margin:  0 auto;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+ main form div + div {
+    margin-top: 1em;
+  } 
+  
+ main form label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+  
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #999999;
+  }
+  
+  input:focus, textarea:focus {
+    /* Pour souligner légèrement les éléments actifs */
+   border-color: #000;
+  }
+  
+  textarea {
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+  
+    /* Pour donner assez de place pour écrire du texte */
+    height: 5em;
+  }
+  
+  .button {
+    /* Pour placer le bouton à la même position que les champs texte */
+    padding-left: 90px; /* même taille que les étiquettes */
+   
+  }
+  
+  button {
+    /* Cette marge supplémentaire représente grosso modo le même espace que celui
+       entre les étiquettes et les champs texte */
+    margin-left: .5em;
+  }
+  /* footer {
+
+    background-color: rgb(155, 61, 248);
+    padding: 100px 100px;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    top: 40rem;
+    justify-content: flex;
+    position: relative;
+    outline: none;
+    font-weight: bold;
+} */
+
+/* footer .footer-colonne{ /* appel au footer et ensuite va a la balise demander "colonne" */
+ /*   display: flex;
+   /* flex-wrap: wrap;
+   /* justify-content: space-between;
+    text-decoration: none;
+    list-style: none; */
+
+footer{
+    background-color: #212121;
+    color: #dfdfdf;
+    padding: 30px 100px;
+}
+
+footer h3{
+    color: white;
+}
+
+.footer-top{
+    display: grid; /*permet le responsive*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 50px;
+    justify-items: center;
+    max-width: 900px;
+    margin: 0 auto 80px auto;
+}
+
+.footer-col{
+    width: max-content;
+}
+
+.footer-col > *{
+    display: block;
+    width: max-content;
+}
+
+.footer-col > h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.footer-col a{
+    padding: 5px 0;
+}
+
+
+.footer-middle{
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.footer-middle h3{
+    margin-bottom: 10px;
+}
+
+.footer-middle label{
+    display: block;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+}
+
+input{
+    padding: 10px;
+    border-radius: 3px;
+}
+
+input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+input [type="submit"]{
+    color: white;
+    background-color: #ffa600;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+}
+/* a.social permet de prioriser l ordre des proprieté css*/
+a.social{
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+a.social:hover{
+    background-color: #ffa600;
+    color: white;
+}
+/*tous les boutons sauf le dernier*/
+a.social:not(:last-child){
+    margin-right: 10px;
+}
+/*900px a ce moment que le code ce casse */
+@media screen and (max-width: 900px) {
+    .footer-top {
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 660px){
+    footer{
+        padding:30px;
+    }
+    .footer-middle{
+        text-align: left;
+    }
+}

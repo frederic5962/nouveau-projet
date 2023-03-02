@@ -36,7 +36,7 @@ body{
         box-sizing: border-box;
       
         /* Pour harmoniser le look & feel des bordures des champs texte */
-        border: 1px solid #999;
+        border: 1px solid #999999;
       }
       
       input:focus, textarea:focus {
@@ -63,3 +63,25 @@ body{
            entre les étiquettes et les champs texte */
         margin-left: .5em;
       }
+      footer {
+
+        background-color: rgb(155, 61, 248);
+        padding: 100px 100px;
+        color: white;
+        align-items: center;
+        text-decoration: none;
+        top: 40rem;
+        justify-content: flex;
+        position: relative;
+        outline: none;
+        font-weight: bold;
+    }
+    
+    /* footer .footer-colonne{ /* appel au footer et ensuite va a la balise demander "colonne" */
+     /*   display: flex;
+       /* flex-wrap: wrap;
+       /* justify-content: space-between;
+        text-decoration: none;
+        list-style: none; */
+    
+   

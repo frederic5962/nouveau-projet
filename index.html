@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleIndex.css">
+    <title>Footer Responsive</title>
+</head>
+<body>
+    <main>
+        <form action="Formulaire d'inscription" method="post">
+
+            <div>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+        
+            <div>
+                <label for="firstname">Prenom :</label>
+                <input type="text" id="firstname" firstname="user_firstname">
+            </div>
+        
+            <div>
+                <label for="birth">Date de Naissance :</label>
+                <input type="date" id="birth" name="user_birth">
+            </div>
+        
+            <div>
+                <label for="adress">Adresse :</label>
+                <input type="text" id="adress" name="user_adress">
+            </div>
+        
+            <div>
+                <label for="phone">telephone :</label>
+                <input type="tel" id="phone" name="user_phone">
+            </div>
+        
+            <div>
+                <label for="mail">e-mail&nbsp; :</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+        
+            <div class="button">
+                <button type="submit">Valider</button>
+            </div>
+        </form>
+    </main>
+    
+    <footer>
+        <div class="footer-top">
+            <div class="footer-col">
+                <h3>A propos</h3>
+                <a href="#">Services</a>
+                <a href="#">Histoire de l'entreprise</a>
+                <a href="#">Nos Clients</a>
+                <a href="#">Carrière</a>
+            </div>
+            <div class="footer-col">
+                <h3>Ressources</h3>
+                <a href="#">Documents</a>
+                <a href="#">Blog</a>
+                <a href="#">ebooks</a>
+                <a href="#">Webinaires</a>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <a href="#">Aide & Conseils</a>
+                <a href="#">SAV</a>
+                <a href="#">Demande de devis</a>
+            </div>
+        </div>
+        <div class="footer-middle">
+            <h3>Restez à jour</h3>
+            <form>
+                <label for="newsletter"
+                >Inscrivez-vous à la newsletter pour recevoir les dernières
+                 informations.
+                </label>
+                <input type="email" name="newsletter" id="newsletter" placeholder="Exemple@gmail.com" required/>
+                <input type="submit" value="Inscription">
+            </form>
+        </div>
+        <div class="footer-bottom">
+            <a href="#" class="social"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#" class="social"></ion-icon><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#" class="social"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

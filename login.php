@@ -22,9 +22,9 @@
  <label><b>Mot de passe</b></label>
  <input type="password" placeholder="Entrer le mot de passe" name="password" required>
 
- <input type="submit" id='submit' value='LOGIN' >
- <button type="submit" class="btn btn-primary" name="validate">S'inscrire</button>
-        <br><br>
+ <input type="submit" id='submit' value='VALIDER' >
+ 
+ 
         
  <?php
  if(isset($_GET['erreur'])){
@@ -32,7 +32,11 @@
  if($err==1 || $err==2)
  echo "<p style='color:red'>Utilisateur ou mot de passe incorrect</p>";
  }
+ 
+ 
  ?>
+ <button type="submit" class="btn btn-primary" name="validate" required pattern="inscription.php">S'inscrire</button>
+        <br><br>
  </form>
  </div>
  </body>

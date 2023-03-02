@@ -11,8 +11,7 @@
 </head>
 <body style='background:#fff;'>
 <a href='principale.php?deconnexion=true'><span>Déconnexion</span></a>
-    <div id="content">
-
+<div id="content">
 <!-- tester si l'utilisateur est connecté -->
 <?php
 session_start();

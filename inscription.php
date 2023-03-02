@@ -2,11 +2,13 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
- <link rel="stylesheet" href="style2.css" media="screen" type="text/css" />
-    
-  </head>
-  <body>
+    <!-- importer le fichier de style -->
+    <link rel="stylesheet" href="style2.css" media="screen" type="text/css" />
+    <title>Document</title>
+ </head>
+  <body style='background:#fff;'>
     
 <form action="Formulaire d'inscription" method="post">
 
@@ -45,7 +47,8 @@
     </div>
 </form>
     
-  
-  </body>
+<footer>
+        
+</footer>
 </html>
 
