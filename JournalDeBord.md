@@ -17,3 +17,8 @@ des package supplementaires ont ete ajouter, suite a une rapide verification via
 
 28/02/2023 modification de la bdd, creation a sur 2 framwork pour en comprendre les utilisations, ainsi que pour evaluer 
 le meilleur support et la meilleur prisee en main.
+
+
+12 et 13 mars creation des opérations du CRUD (Create,READ,UPDATE,DELETE),
+cela me permet de gerer la base de donnée, je peux lire les infos sur l'utilisateur, les modifiers ainsi que les supprimés.
+ 
